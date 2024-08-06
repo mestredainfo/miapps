@@ -1,0 +1,28 @@
+{
+  "name": "miapps",
+  "productName": "miapps",
+  "version": "1.0.0",
+  "description": "MIApps is a software that runs applications developed in PHP for desktop Linux Debian, Linux Ubuntu and Windows.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "package-win32": "electron-forge package --platform=win32",
+    "package": "electron-forge package"
+  },
+  "author": {
+    "name": "Murilo Gomes Julio",
+    "email": "contato@mestredainfo.com.br",
+    "organization": "Mestre da Info",
+    "contact": "https://www.mestredainfo.com.br/p/contato.html",
+    "url": "https://www.mestredainfo.com.br/p/sobre.html"
+  },
+  "copyright": "Copyright (C) 2004-2024 Murilo Gomes Julio",
+  "homepage": "https://www.mestredainfo.com.br",
+  "license": "GPL-2.0-only",
+  "devDependencies": {
+    "@electron-forge/cli": "^7.4.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.4.0",
+    "electron": "^31.0.1"
+  }
+}
